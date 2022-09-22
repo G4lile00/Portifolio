@@ -6,8 +6,92 @@ light black - #121417
 black -  #08090A
 */
 
-
+* {
+  font-family: "Roboto", sans-serif;
+}
+html,
+body {
+  height: 100%;
+}
 
 body {
-    background-color: #08090A;
+  background-color: #08090a;
+}
+
+a {
+  text-decoration: none;
+  color: #8257e5;
+  transition: 1s;
+}
+
+a:hover {
+  color: #481cb0;
+}
+
+.header {
+  position: sticky;
+}
+
+.topbar {
+  background-color: #121417;
+  color: #8257e5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+}
+
+.topbar a {
+  font-size: 3rem;
+}
+
+.links {
+  color: #8257e5;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 1rem;
+}
+
+.content {
+  color: #fafafa;
+  display: flex;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.content h2 {
+  display: flex;
+  justify-content: left;
+  flex-wrap: nowrap;
+}
+
+.content p {
+  display: flex;
+  justify-content: left;
+}
+.page {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.description {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 33%;
+}
+
+@media only screen and (max-width: 425px) {
+  .description {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 1024px) {
+  .description {
+    width: 50%;
+  }
 }
