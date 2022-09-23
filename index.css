@@ -8,6 +8,7 @@ black -  #08090A
 
 * {
   font-family: "Roboto", sans-serif;
+  transition:1s;
 }
 html,
 body {
