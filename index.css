@@ -84,9 +84,9 @@ a:hover {
   width: 33%;
 }
 .card {
-  height:2vh;
+  height:10vh;
   padding:2rem;
-  background-color:#121417;
+  background-color: #121417;
   color:#fafafa
 }
 
