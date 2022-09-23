@@ -83,6 +83,12 @@ a:hover {
   padding-right: 1rem;
   width: 33%;
 }
+.card {
+  height:2vh;
+  padding:2rem;
+  background-color:#121417;
+  color:#fafafa
+}
 
 @media only screen and (max-width: 425px) {
   .description {
