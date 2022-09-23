@@ -91,6 +91,10 @@ a:hover {
   color:#fafafa
 }
 
+.card:hover{
+  color:#DAFF7D
+}
+
 @media only screen and (max-width: 425px) {
   .description {
     width: 100%;
